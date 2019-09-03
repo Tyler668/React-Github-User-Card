@@ -43,7 +43,12 @@ class App extends Component {
     this.grabProfile(`https://api.github.com/users/Tyler668`)
     axios.get(`https://api.github.com/users/Tyler668/followers`)
       .then(res => {
-        const followerArray = [];
+        const followerArray = [  
+        'tetondan',
+        'dustinmyers',
+        'justsml',
+        'luishrd',
+        'bigknell'];
         console.log(res.data);
         res.data.forEach(item => { followerArray.push(item.login) });
         console.log(followerArray);

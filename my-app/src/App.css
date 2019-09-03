@@ -129,6 +129,7 @@ body {
   display: flex;
   justify-content: column;
   justify-content: space-around;
+  flex-flow: wrap;
   /* margin: auto; */
 }
 
@@ -150,4 +151,6 @@ body {
   color: white;
   font-size: 7rem;
   text-align: center;
+  padding-top: 100px;
+  font-family: 'Luckiest Guy', cursive;
 }
